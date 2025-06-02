@@ -5,8 +5,9 @@ import cv2
 import numpy as np
 
 from PIL import Image
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 import pytesseract
+pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+
 # Path of working folder on Disk
 
 def browseFiles():
