@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[29]:
-
-
 from tkinter import *
 from tkinter import filedialog
 import fpdf
@@ -103,9 +97,6 @@ if result is not None:
         return "\nThe accuracy of the model is "+str(SequenceMatcher(None, a, b).ratio()*100)+"%\n"
     print(similar(s,s1))
     result=None
-
-
-# In[ ]:
 
 
 
